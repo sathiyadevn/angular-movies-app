@@ -10,5 +10,7 @@ export class AppComponent {
 
   today=new Date();
 
-  
+  price=98.7655555;
+
+
 }
