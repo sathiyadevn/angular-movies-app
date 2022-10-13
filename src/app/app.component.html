@@ -10,9 +10,11 @@
 <h3>Today : {{today}}</h3>
 <hr><hr>
 
-<h2>{{title | uppercase}}</h2>
-<h2>{{title | lowercase}}</h2>
-<h2>Today : {{today | date:'dd-MM-yyyy'}}</h2>
-<h2>Price : {{price | currency}}</h2>
-<h2>Price : {{price | currency:'INR':'symbol':'6.1-9'}}</h2>
+<h3>{{title | uppercase}}</h3>
+<h3>{{title | lowercase}}</h3>
+<h3>Today : {{today | date:'dd-MM-yyyy'}}</h3>
+<h3>Price : {{price | currency}}</h3>
+<h3>Price : {{price | currency:'INR':'symbol':'6.1-9'}}</h3>
 <hr><hr>
+
+<span>Selling Price : {{sellingPrice | currency:'INR'}} , Profit : {{sellingPrice | profit : 20 | currency:'INR'}}</span>
