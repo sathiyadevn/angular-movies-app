@@ -14,5 +14,6 @@ export class AppComponent {
 
   sellingPrice= 100.50;
 
-
+  imgUrl='https://unsplash.com/photos/1jUPdfWZgps';
+  imgWidth=500;
 }
