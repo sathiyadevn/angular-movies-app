@@ -16,4 +16,6 @@ export class AppComponent {
 
   imgUrl='https://m.media-amazon.com/images/M/MV5BNDkyZThhNmMtZDBjYS00NDBmLTlkMjgtNWM2ZWYzZDQxZWU1XkEyXkFqcGdeQXVyMTMzNDExODE5._V1_UX128_CR0,12,128,176_AL_.jpg';
   imgWidth=100;
+
+  attributeValue='movies-app-test-value';
 }
