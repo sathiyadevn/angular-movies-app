@@ -25,3 +25,20 @@
 
 <button type='button' [attr.aria-label]="attributeValue">Sample Button</button>
 <hr><hr>
+
+<h2>Class and Style Binding</h2>
+
+<p [class.sample]="isApplied">
+    This is Single class Binding , --> used Variable , within that have value
+</p>
+
+<p [class]="multipleClasses">
+    This is MultipleClass Binding
+</p>
+
+<p [style.background-color]="bgColor">
+    This is Single Style Binding , --> used Value directly, eithin that have Variable
+</p>
+<p [style]="multipleStyles">
+    This is Multiple Style Binding
+</p>

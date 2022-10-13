@@ -18,4 +18,10 @@ export class AppComponent {
   imgWidth=100;
 
   attributeValue='movies-app-test-value';
+
+  isApplied=true;
+  multipleClasses="sample-bgcolor sample-color"
+
+  bgColor="blueviolet";
+  multipleStyles="background-color:black; color:white"
 }
