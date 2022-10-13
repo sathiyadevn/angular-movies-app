@@ -14,6 +14,6 @@ export class AppComponent {
 
   sellingPrice= 100.50;
 
-  imgUrl='https://unsplash.com/photos/1jUPdfWZgps';
-  imgWidth=500;
+  imgUrl='https://m.media-amazon.com/images/M/MV5BNDkyZThhNmMtZDBjYS00NDBmLTlkMjgtNWM2ZWYzZDQxZWU1XkEyXkFqcGdeQXVyMTMzNDExODE5._V1_UX128_CR0,12,128,176_AL_.jpg';
+  imgWidth=100;
 }
