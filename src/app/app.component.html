@@ -54,3 +54,11 @@
 <p>Time is : {{timenow}}</p>
 
 <hr><hr>
+
+<h2>Tempate variables</h2>
+
+<input #color placeholder="type your color">        
+<button (click)="setTextColor(color.value)">Set Color</button>
+<p [style.color]="pColor">This text will be chnaged based on your color</p> 
+
+<hr><hr>

@@ -33,4 +33,12 @@ export class AppComponent {
   TimeInWebpage(){
     this.timenow=new Date();
   }
+
+  pColor='green';
+  setTextColor(_color: string){
+    console.log(_color);
+    this.pColor=_color;
+  }
 }
+
+
