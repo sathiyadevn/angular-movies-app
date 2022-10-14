@@ -20,9 +20,11 @@
 <span>Selling Price : {{sellingPrice | currency:'INR'}} , Profit : {{sellingPrice | profit : 20 | currency:'INR'}}</span>
 <hr><hr>
 
+<h2>Property Binding</h2>
 <img [src]="imgUrl" [width]="imgWidth"/>
 <hr><hr>
 
+<h2>Attribute Binding</h2>
 <button type='button' [attr.aria-label]="attributeValue">Sample Button</button>
 <hr><hr>
 
@@ -42,3 +44,13 @@
 <p [style]="multipleStyles">
     This is Multiple Style Binding
 </p>
+
+<hr><hr>
+
+<h2>Event Binding</h2>
+<button (click)="TimeInConsole()">Show current time in console</button><br><br>
+
+<button (click)="TimeInWebpage()"> Show current time in web page</button>
+<p>Time is : {{timenow}}</p>
+
+<hr><hr>

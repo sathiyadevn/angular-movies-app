@@ -24,4 +24,13 @@ export class AppComponent {
 
   bgColor="blueviolet";
   multipleStyles="background-color:black; color:white"
+
+  TimeInConsole(){
+    console.log(new Date());
+  }
+
+  timenow = new Date();
+  TimeInWebpage(){
+    this.timenow=new Date();
+  }
 }
