@@ -39,6 +39,8 @@ export class AppComponent {
     console.log(_color);
     this.pColor=_color;
   }
+
+  eg='see magic, type somthing';
 }
 
 
